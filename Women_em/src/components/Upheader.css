@@ -59,6 +59,21 @@
   .toggle-nav-bar {
     display: none; /* Hide toggle button by default */
   }
+
+/*   @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack elements vertically on small screens */
+/*       align-items: flex-start; /* Align items to the start */ 
+/*     } */
   
+/*     .left-logo, */
+/*     .right-logo {
+      margin-top: 10px; /* Add spacing between logo sections */
+/*     } */
+  
+/*     .toggle-nav-bar { */
+/*       display: block; /* Display toggle button on small screens */ 
+/*     } */
+/*   }  */
 
   
