@@ -2,6 +2,7 @@
 /* HeaderWrapper.css */
 
 .wrapper.header-wrapper {
+    height:auto;
     background-color: #ffffff; /* Blue background color */
     color: black; /* White text color */
     
