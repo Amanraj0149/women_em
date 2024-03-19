@@ -17,6 +17,9 @@
 }
 
 .footer-top-container {
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
   max-width: 1200px; /* Limit the maximum width of the container */
   margin: 0 auto; /* Center the container horizontally */
 }
