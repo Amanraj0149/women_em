@@ -1,0 +1,35 @@
+/* Header.css */
+
+/* Custom styles for the Navbar */
+.navbar {
+  background-color: #f8f9fa; /* Change background color */
+  padding-top: 10px; /* Adjust top padding */
+  padding-bottom: 10px; /* Adjust bottom padding */
+}
+
+/* Style for Navbar brand */
+.navbar-brand {
+  color: #007bff; /* Change brand color */
+  font-weight: bold; /* Make brand text bold */
+}
+
+/* Style for Navbar links */
+.navbar-nav .nav-link {
+  color: #6c757d; /* Change link color */
+  font-weight: bold; /* Make link text bold */
+}
+
+/* Style for active Navbar link */
+.navbar-nav .nav-link.active {
+  color: #000; /* Change active link color */
+}
+
+/* Style for Navbar dropdown */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #fff; /* Change dropdown menu background color */
+}
+
+/* Style for Navbar buttons */
+.navbar-nav .btn {
+  margin-left: 10px; /* Add left margin to buttons */
+}
