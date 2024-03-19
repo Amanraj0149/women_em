@@ -1,35 +1,67 @@
-/* Header.css */
+/* Global styles */
 
-/* Custom styles for the Navbar */
+/* Apply a background color to the entire page */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a generic sans-serif font */
+}
+
+/* Style the header */
 .navbar {
-  background-color: #f8f9fa; /* Change background color */
-  padding-top: 10px; /* Adjust top padding */
-  padding-bottom: 10px; /* Adjust bottom padding */
+    background-image: linear-gradient(to right, hsl(39, 100%, 69%), #ffc176); /* Set background gradient */
+    padding: 15px 0; /* Add padding */
 }
 
-/* Style for Navbar brand */
+/* Navbar Brand */
 .navbar-brand {
-  color: #007bff; /* Change brand color */
-  font-weight: bold; /* Make brand text bold */
+    color: #fff; /* Set brand color to white */
+    font-weight: bold; /* Make brand text bold */
 }
 
-/* Style for Navbar links */
+/* Navbar Links */
 .navbar-nav .nav-link {
-  color: #6c757d; /* Change link color */
-  font-weight: bold; /* Make link text bold */
+    color: #000; /* Set link color to black */
+    font-weight: bold; /* Make link text bold */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Add transition for smooth color change */
 }
 
-/* Style for active Navbar link */
+/* Navbar Links Hover */
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Change link color on hover */
+}
+
+/* Navbar Links Active (Underline Effect) */
 .navbar-nav .nav-link.active {
-  color: #000; /* Change active link color */
+    text-decoration: underline; /* Add underline effect */
 }
 
-/* Style for Navbar dropdown */
-.navbar-nav .nav-item.dropdown .dropdown-menu {
-  background-color: #fff; /* Change dropdown menu background color */
+/* Navbar Dropdown */
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: #f8f9fa; /* Set dropdown menu background color */
 }
 
-/* Style for Navbar buttons */
-.navbar-nav .btn {
-  margin-left: 10px; /* Add left margin to buttons */
+/* Buttons */
+.btn-outline-primary {
+    color: #fff; /* Set primary button text color to white */
+    border-color: #fff; /* Set primary button border color to white */
 }
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #f8f9fa; /* Change primary button color on hover/focus */
+    border-color: #f8f9fa; /* Change primary button border color on hover/focus */
+}
+
+.btn-outline-danger {
+    color: #fff; /* Set danger button text color to white */
+    border-color: #fff; /* Set danger button border color to white */
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus {
+    color: #f8f9fa; /* Change danger button color on hover/focus */
+    border-color: #f8f9fa; /* Change danger button border color on hover/focus */
+}
+
+/* Apply styles to other elements as needed */
