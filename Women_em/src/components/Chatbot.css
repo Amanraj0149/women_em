@@ -28,6 +28,12 @@
     right: 25px;
     z-index: 999;
     display: none;
+    background-color: rgba(255, 255, 255, 0.9); /* Change transparency here */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    opacity: 1
   }
   
   /* Chatbot styles */
