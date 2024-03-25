@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Banner from './components/Banner.jsx';
 import Chatbot from './components/Chatbot.jsx';
+import Signup from './components/emer.jsx';
 import './App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 const router = createBrowserRouter([
   {
     path:"/",
-    element: <><Banner /></>
+    element: <><Upheader /><Header /><Signup /><Footer /><Bfoot /><Chatbot /></>
   },
   {
     path:"/login",
